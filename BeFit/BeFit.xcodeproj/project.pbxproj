@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5BDE3F2A5C3C5900AD9BFE /* BeFitWatchExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5BDE3E2A5C3C5900AD9BFE /* BeFitWatchExtension.swift */; };
+		FC5BDE412A5C3C5900AD9BFE /* BeFitWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5BDE402A5C3C5900AD9BFE /* BeFitWatch.swift */; };
+		FC6AFBED2A5C2F9400F2C66C /* BeFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFBEC2A5C2F9400F2C66C /* BeFitApp.swift */; };
+		FC6AFBEF2A5C2F9400F2C66C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFBEE2A5C2F9400F2C66C /* ContentView.swift */; };
+		FC6AFBF12A5C2F9500F2C66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6AFBF02A5C2F9500F2C66C /* Assets.xcassets */; };
+		FC6AFBF42A5C2F9500F2C66C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6AFBF32A5C2F9500F2C66C /* Preview Assets.xcassets */; };
+		FC6AFBF62A5C2F9500F2C66C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFBF52A5C2F9500F2C66C /* Persistence.swift */; };
+		FC6AFBF92A5C2F9500F2C66C /* BeFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFBF72A5C2F9500F2C66C /* BeFit.xcdatamodeld */; };
+		FC6AFC032A5C2F9500F2C66C /* BeFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFC022A5C2F9500F2C66C /* BeFitTests.swift */; };
+		FC6AFC0D2A5C2F9500F2C66C /* BeFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFC0C2A5C2F9500F2C66C /* BeFitUITests.swift */; };
+		FC6AFC0F2A5C2F9500F2C66C /* BeFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AFC0E2A5C2F9500F2C66C /* BeFitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6AFBFF2A5C2F9500F2C66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6AFBE12A5C2F9400F2C66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6AFBE82A5C2F9400F2C66C;
+			remoteInfo = BeFit;
+		};
+		FC6AFC092A5C2F9500F2C66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6AFBE12A5C2F9400F2C66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6AFBE82A5C2F9400F2C66C;
+			remoteInfo = BeFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC5BDE3C2A5C3C5900AD9BFE /* BeFitWatch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = BeFitWatch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5BDE3E2A5C3C5900AD9BFE /* BeFitWatchExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitWatchExtension.swift; sourceTree = "<group>"; };
+		FC5BDE402A5C3C5900AD9BFE /* BeFitWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitWatch.swift; sourceTree = "<group>"; };
+		FC5BDE422A5C3C5900AD9BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6AFBE92A5C2F9400F2C66C /* BeFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6AFBEC2A5C2F9400F2C66C /* BeFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitApp.swift; sourceTree = "<group>"; };
+		FC6AFBEE2A5C2F9400F2C66C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC6AFBF02A5C2F9500F2C66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6AFBF32A5C2F9500F2C66C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC6AFBF52A5C2F9500F2C66C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FC6AFBF82A5C2F9500F2C66C /* BeFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeFit.xcdatamodel; sourceTree = "<group>"; };
+		FC6AFBFE2A5C2F9500F2C66C /* BeFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6AFC022A5C2F9500F2C66C /* BeFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitTests.swift; sourceTree = "<group>"; };
+		FC6AFC082A5C2F9500F2C66C /* BeFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6AFC0C2A5C2F9500F2C66C /* BeFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitUITests.swift; sourceTree = "<group>"; };
+		FC6AFC0E2A5C2F9500F2C66C /* BeFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5BDE392A5C3C5900AD9BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFBE62A5C2F9400F2C66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFBFB2A5C2F9500F2C66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFC052A5C2F9500F2C66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5BDE3D2A5C3C5900AD9BFE /* BeFitWatch */ = {
+			isa = PBXGroup;
+			children = (
+				FC5BDE3E2A5C3C5900AD9BFE /* BeFitWatchExtension.swift */,
+				FC5BDE402A5C3C5900AD9BFE /* BeFitWatch.swift */,
+				FC5BDE422A5C3C5900AD9BFE /* Info.plist */,
+			);
+			path = BeFitWatch;
+			sourceTree = "<group>";
+		};
+		FC6AFBE02A5C2F9400F2C66C = {
+			isa = PBXGroup;
+			children = (
+				FC6AFBEB2A5C2F9400F2C66C /* BeFit */,
+				FC6AFC012A5C2F9500F2C66C /* BeFitTests */,
+				FC6AFC0B2A5C2F9500F2C66C /* BeFitUITests */,
+				FC5BDE3D2A5C3C5900AD9BFE /* BeFitWatch */,
+				FC6AFBEA2A5C2F9400F2C66C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6AFBEA2A5C2F9400F2C66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AFBE92A5C2F9400F2C66C /* BeFit.app */,
+				FC6AFBFE2A5C2F9500F2C66C /* BeFitTests.xctest */,
+				FC6AFC082A5C2F9500F2C66C /* BeFitUITests.xctest */,
+				FC5BDE3C2A5C3C5900AD9BFE /* BeFitWatch.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6AFBEB2A5C2F9400F2C66C /* BeFit */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AFBEC2A5C2F9400F2C66C /* BeFitApp.swift */,
+				FC6AFBEE2A5C2F9400F2C66C /* ContentView.swift */,
+				FC6AFBF02A5C2F9500F2C66C /* Assets.xcassets */,
+				FC6AFBF52A5C2F9500F2C66C /* Persistence.swift */,
+				FC6AFBF72A5C2F9500F2C66C /* BeFit.xcdatamodeld */,
+				FC6AFBF22A5C2F9500F2C66C /* Preview Content */,
+			);
+			path = BeFit;
+			sourceTree = "<group>";
+		};
+		FC6AFBF22A5C2F9500F2C66C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AFBF32A5C2F9500F2C66C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC6AFC012A5C2F9500F2C66C /* BeFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AFC022A5C2F9500F2C66C /* BeFitTests.swift */,
+			);
+			path = BeFitTests;
+			sourceTree = "<group>";
+		};
+		FC6AFC0B2A5C2F9500F2C66C /* BeFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AFC0C2A5C2F9500F2C66C /* BeFitUITests.swift */,
+				FC6AFC0E2A5C2F9500F2C66C /* BeFitUITestsLaunchTests.swift */,
+			);
+			path = BeFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5BDE3B2A5C3C5900AD9BFE /* BeFitWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5BDE452A5C3C5900AD9BFE /* Build configuration list for PBXNativeTarget "BeFitWatch" */;
+			buildPhases = (
+				FC5BDE382A5C3C5900AD9BFE /* Sources */,
+				FC5BDE392A5C3C5900AD9BFE /* Frameworks */,
+				FC5BDE3A2A5C3C5900AD9BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeFitWatch;
+			productName = BeFitWatch;
+			productReference = FC5BDE3C2A5C3C5900AD9BFE /* BeFitWatch.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		FC6AFBE82A5C2F9400F2C66C /* BeFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6AFC122A5C2F9500F2C66C /* Build configuration list for PBXNativeTarget "BeFit" */;
+			buildPhases = (
+				FC6AFBE52A5C2F9400F2C66C /* Sources */,
+				FC6AFBE62A5C2F9400F2C66C /* Frameworks */,
+				FC6AFBE72A5C2F9400F2C66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeFit;
+			productName = BeFit;
+			productReference = FC6AFBE92A5C2F9400F2C66C /* BeFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6AFBFD2A5C2F9500F2C66C /* BeFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6AFC152A5C2F9500F2C66C /* Build configuration list for PBXNativeTarget "BeFitTests" */;
+			buildPhases = (
+				FC6AFBFA2A5C2F9500F2C66C /* Sources */,
+				FC6AFBFB2A5C2F9500F2C66C /* Frameworks */,
+				FC6AFBFC2A5C2F9500F2C66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6AFC002A5C2F9500F2C66C /* PBXTargetDependency */,
+			);
+			name = BeFitTests;
+			productName = BeFitTests;
+			productReference = FC6AFBFE2A5C2F9500F2C66C /* BeFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC6AFC072A5C2F9500F2C66C /* BeFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6AFC182A5C2F9500F2C66C /* Build configuration list for PBXNativeTarget "BeFitUITests" */;
+			buildPhases = (
+				FC6AFC042A5C2F9500F2C66C /* Sources */,
+				FC6AFC052A5C2F9500F2C66C /* Frameworks */,
+				FC6AFC062A5C2F9500F2C66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6AFC0A2A5C2F9500F2C66C /* PBXTargetDependency */,
+			);
+			name = BeFitUITests;
+			productName = BeFitUITests;
+			productReference = FC6AFC082A5C2F9500F2C66C /* BeFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6AFBE12A5C2F9400F2C66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FC5BDE3B2A5C3C5900AD9BFE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FC6AFBE82A5C2F9400F2C66C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FC6AFBFD2A5C2F9500F2C66C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FC6AFBE82A5C2F9400F2C66C;
+					};
+					FC6AFC072A5C2F9500F2C66C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FC6AFBE82A5C2F9400F2C66C;
+					};
+				};
+			};
+			buildConfigurationList = FC6AFBE42A5C2F9400F2C66C /* Build configuration list for PBXProject "BeFit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6AFBE02A5C2F9400F2C66C;
+			productRefGroup = FC6AFBEA2A5C2F9400F2C66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6AFBE82A5C2F9400F2C66C /* BeFit */,
+				FC6AFBFD2A5C2F9500F2C66C /* BeFitTests */,
+				FC6AFC072A5C2F9500F2C66C /* BeFitUITests */,
+				FC5BDE3B2A5C3C5900AD9BFE /* BeFitWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5BDE3A2A5C3C5900AD9BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFBE72A5C2F9400F2C66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AFBF42A5C2F9500F2C66C /* Preview Assets.xcassets in Resources */,
+				FC6AFBF12A5C2F9500F2C66C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFBFC2A5C2F9500F2C66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFC062A5C2F9500F2C66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5BDE382A5C3C5900AD9BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5BDE412A5C3C5900AD9BFE /* BeFitWatch.swift in Sources */,
+				FC5BDE3F2A5C3C5900AD9BFE /* BeFitWatchExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFBE52A5C2F9400F2C66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AFBF92A5C2F9500F2C66C /* BeFit.xcdatamodeld in Sources */,
+				FC6AFBF62A5C2F9500F2C66C /* Persistence.swift in Sources */,
+				FC6AFBEF2A5C2F9400F2C66C /* ContentView.swift in Sources */,
+				FC6AFBED2A5C2F9400F2C66C /* BeFitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFBFA2A5C2F9500F2C66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AFC032A5C2F9500F2C66C /* BeFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6AFC042A5C2F9500F2C66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AFC0D2A5C2F9500F2C66C /* BeFitUITests.swift in Sources */,
+				FC6AFC0F2A5C2F9500F2C66C /* BeFitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6AFC002A5C2F9500F2C66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6AFBE82A5C2F9400F2C66C /* BeFit */;
+			targetProxy = FC6AFBFF2A5C2F9500F2C66C /* PBXContainerItemProxy */;
+		};
+		FC6AFC0A2A5C2F9500F2C66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6AFBE82A5C2F9400F2C66C /* BeFit */;
+			targetProxy = FC6AFC092A5C2F9500F2C66C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC5BDE432A5C3C5900AD9BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeFitWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BeFitWatch;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFitWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FC5BDE442A5C3C5900AD9BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeFitWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BeFitWatch;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFitWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FC6AFC102A5C2F9500F2C66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6AFC112A5C2F9500F2C66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6AFC132A5C2F9500F2C66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6AFC142A5C2F9500F2C66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeFit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC6AFC162A5C2F9500F2C66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeFit";
+			};
+			name = Debug;
+		};
+		FC6AFC172A5C2F9500F2C66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeFit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeFit";
+			};
+			name = Release;
+		};
+		FC6AFC192A5C2F9500F2C66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeFit;
+			};
+			name = Debug;
+		};
+		FC6AFC1A2A5C2F9500F2C66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EduardKakosyan.BeFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5BDE452A5C3C5900AD9BFE /* Build configuration list for PBXNativeTarget "BeFitWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5BDE432A5C3C5900AD9BFE /* Debug */,
+				FC5BDE442A5C3C5900AD9BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6AFBE42A5C2F9400F2C66C /* Build configuration list for PBXProject "BeFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6AFC102A5C2F9500F2C66C /* Debug */,
+				FC6AFC112A5C2F9500F2C66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6AFC122A5C2F9500F2C66C /* Build configuration list for PBXNativeTarget "BeFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6AFC132A5C2F9500F2C66C /* Debug */,
+				FC6AFC142A5C2F9500F2C66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6AFC152A5C2F9500F2C66C /* Build configuration list for PBXNativeTarget "BeFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6AFC162A5C2F9500F2C66C /* Debug */,
+				FC6AFC172A5C2F9500F2C66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6AFC182A5C2F9500F2C66C /* Build configuration list for PBXNativeTarget "BeFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6AFC192A5C2F9500F2C66C /* Debug */,
+				FC6AFC1A2A5C2F9500F2C66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC6AFBF72A5C2F9500F2C66C /* BeFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC6AFBF82A5C2F9500F2C66C /* BeFit.xcdatamodel */,
+			);
+			currentVersion = FC6AFBF82A5C2F9500F2C66C /* BeFit.xcdatamodel */;
+			path = BeFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC6AFBE12A5C2F9400F2C66C /* Project object */;
+}
