@@ -1,5 +1,7 @@
 # BeFit - Fitness App
-### Authors: Eduard Kakosyan
+### Authors: \
+Eduard Kakosyan\
+Hao Tang
 ---
 ## Table of Contents
 
@@ -21,6 +23,6 @@ The project is created with:
 * GitHub
 
 ## Citations
-https://www.youtube.com/watch?v=rZzoV0LKQVA
-https://github.com/AppPear/ChartView
-https://www.youtube.com/watch?v=7vOF1kGnsmo
+https://www.youtube.com/watch?v=rZzoV0LKQVA\
+https://github.com/AppPear/ChartView\
+https://www.youtube.com/watch?v=7vOF1kGnsmo\
